@@ -37,7 +37,7 @@ class _ImcValeuNotifierPage extends State<ImcValeuNotifierPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Imc ValueNotifier'),
+        title: const Text('Imc Value Notifier'),
       ),
       body: SingleChildScrollView(
         child: Form(
