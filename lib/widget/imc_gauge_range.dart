@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 
 class ImcGaugeRange extends GaugeRange {
-  ImcGaugeRange({Key? key, 
+  ImcGaugeRange({Key? key,
     required Color color,
     required double start,
     required double end,
     required String label,
-  }) : super(key: key, 
+  }) : super(key: key,
             startValue: start,
             endValue: end,
             color: color,
